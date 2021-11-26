@@ -1,0 +1,16 @@
+*{
+    
+    box-sizing: Border-box;
+}
+
+body{
+    background-color: snow;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+     margin: 0;
+    
+    }
