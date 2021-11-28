@@ -1,0 +1,49 @@
+*{
+    
+    box-sizing: Border-box;
+}
+
+body{
+    background-color: rgb(202, 97, 202);
+    color: white;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+    }
+   .counter-container{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 30px 50px;
+
+    }
+    .counter {
+        font-size: 60px;
+        margin-top:10px;
+
+    }
+     .fa-twitter{
+         color: #00acee ;
+     }
+     .fa-youtube{
+        color: #c4302b ;
+    }
+    .fa-facebook{
+        color:#3b5998;
+    }
+    @media (max-width: 650px){
+     body{
+         flex-direction: column
+         
+     }
+
+    }
+
+
+
