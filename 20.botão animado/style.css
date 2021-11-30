@@ -1,0 +1,52 @@
+*{
+    
+    box-sizing: Border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+    }
+
+button{ 
+    background-color: rgb(190, 31, 58);
+    border-radius:5px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    padding: 20px 35px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position:relative;
+}
+button:focus{
+    outline:none;
+}
+button .circle{
+    position: absolute;
+    background-color: white ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale .5s ease-out;
+
+
+}
+@keyframes scale {
+    to{
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+    }
+}
